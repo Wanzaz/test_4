@@ -1,0 +1,25 @@
+1. Napište funkci, která vezme dva řetězce A a B. Zřetězí je do třetího řetězce C.
+2. Napište funkci, která vezme dva řetězce A a B a zřetězí je, ale do A.
+3. Napište funkci, která vezme řetězec a vypíše ho tak, že každý znak zdvojí. Př. A = "Ahoj", výstup: AAhhoojj.
+4. Napište funkci , která vezme řetězec a vytiskne z něj podřetězec, který určíte pomocí parametru a) pozice, od které se má tisknout, b) počet znaků.
+5. Napište funkci, která vezme řetězec a znak z a vrátí počet výskytů daného znaku z.
+6. Napište funkci, která vezme řetězec a vypíše ho pozpátku.
+7. Napište funkci, která vezme dva řetězce A a B (jeden vstupní a druhý výstupní) a do výstupního řetězce (který je 2× delší než vstupní ) vloží znaky z prvního řetězce takto:  a) A=“ahoj“ B=“ahojahoj“ , b) B=“ahojjoha“
+8. Napište funkci, která vezme řetězec a všechny znaky 'a' nahradí znakem '*';
+9. Napište funkci, která vezme dva řetězce a zkopíruje první řetězec do druhého.
+10. Napište funkci, která vezme dva řetězce a zkopíruje první řetězec do druhého, ale v opačném pořadí. KONEC -> CENOK
+11. Napište funkci, která vezme řetězec a přehodí v něm první a poslední znak.
+12. Napište funkci, která vezme celé číslo a řetězec a do řetězce vloží to číslo převedené do dvojkové soustavy.
+13. Máme slovo: rozdělte je do dvou dalších řetězců podle malých a velkých písmen. př.: A = "Ahoj" , B = "hoj", C = "A".
+14. Napište funkci, která vezme řetězec a vrátí 1, pokud se řetězec skládá jen z písmen nebo vrátí 0 pokud ne.
+15. Napište funkci, která vezme řetězec a otočí v něm znaky bez pomocného pole. Př. slovo → ovols
+16. Napište funkci, která vezme řetězec a vrátí 1, pokud je  řetězec palindromem, jinak vrátí 0? (oko, radar).
+17. Napište funkci, která vezme řetězec a vytiskne ho tak, že všechna malá písmena vytiskne dvakrát. Ahoj -> Ahhoojj
+18. Napište funkci, která vezme řetězec a každé malé písmeno nahradí příslušným velkým písmenem. Př. A = "Dnes je krasne!", výstup: A = "DNES JE KRASNE!"
+19. Napište funkci, která vezme řetězec a dva znaky z1 a z2. Všechny znaky z1 v řetězci zamění za znaky z2.
+20. Napište funkci, která vezme řetězec a nahradí v něm všechny číslice hvězdičkou.
+21. Napište funkci, která vezme řetězec a vymaže z něj první znak.
+22. Napište funkci, která vezme řetězec a vrátí počet velkých písmen.
+23. Napište funkci, která vezme řetězec a vrátí 1, pokud se řetězec skládá jen z písmen (malá a velká písmena anglické abecedy) jinak vrátí 0.
+24. Napište funkci, která vyplní řetězec dvěma znaky takto: a) aaabbb, b) ababab, c) abbabbabb. Funkce bude mít parametr n, který udává počet sekvencí.
+25. Napište funkci, která vezme řetězec a vrátí index znaku s nejvyšším ordinálním číslem (číslem v ASCII tabulce). Př.: Ahoj -> 2 (index znaku 'o').
