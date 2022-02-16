@@ -27,9 +27,9 @@ int main()
 {
     char a[20], b[20], c[40];
     printf("Zadej neco do retezce a: ");
-    scanf("%20s", a);
+    scanf("%19s", a);
     printf("Zadej neco do retezce b: ");
-    scanf("%20s", b);
+    scanf("%19s", b);
 
     slouceni(a, b, c);
     puts(c);
