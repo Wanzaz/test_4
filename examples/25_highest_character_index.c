@@ -27,10 +27,12 @@ int highest_index_in_ascii(char str[])
     for(i=0;str[i] != '\0';i++)
     {
         if(str[i] > content)
+        {
             content = str[i];
             highest = i;
+        }
     }
 
-    return highest-1;
+    return highest;
 }
 
