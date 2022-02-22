@@ -57,3 +57,4 @@ int palidrome(char *normal, char *reverse)
         return 0;
     return 1;
 }
+
