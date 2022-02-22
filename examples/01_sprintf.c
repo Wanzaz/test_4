@@ -16,6 +16,7 @@ int main(void) {
     scanf("%19s", str2);
 
     merge(str, str2, result);
+    puts(result);
     
     return 0;
 }
@@ -23,5 +24,4 @@ int main(void) {
 void merge(char source[], char source2[], char target[])
 {
     sprintf(target, "The result is: %s %s", source, source2);
-    puts(target);
 }
