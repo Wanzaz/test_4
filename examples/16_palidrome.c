@@ -7,7 +7,7 @@
 16. Write a function that takes a string and returns 1 if the string is a palindrome, otherwise it returns 0 (eye, radar).
 */
 
-void reverse(char *source);
+void reverse_copy(char *source, char *target);
 int palidrome(char *normal, char *reverse);
 void copy(char *source,char *target);
 
@@ -20,9 +20,9 @@ int main()
     char str2[40];
     
     copy(str, str2);
-    reverse(str);
+    reverse_copy(str, str2);
     
-    if(palidrome(str2, str)==0)
+    if(palidrome(str, str2)==0)
         printf("The word is palidrome");
     else
         printf("The word is not palidrome");
@@ -30,15 +30,35 @@ int main()
     return 0;
 }
 
-void reverse(char *source)
+void reverse_copy(char *source, char *target)
 {
     int i;
     int length = strlen(source);
     for(i=0;i <= length;i++)
     {
-        source[i] = source[length - 1 - i];
+        target[i] = source[length - 1 - i];
     }
-    source[i] = '\0';
+    target[i] = '\0';
+}
+
+void copy(char *source,char *target)
+{
+    int i;
+    for(i=0;source[i]!='\0';i++)
+    {
+        target[i] = source[i];
+    }
+    target[i]='\0';
+}
+
+int palidrome(char *normal, char *reverse)
+{
+    if(strcmp(normal, reverse)==0)
+        return 0;
+    return 1;
+}length - 1 - i];
+    }
+    target[i] = '\0';
 }
 
 void copy(char *source,char *target)
@@ -57,4 +77,3 @@ int palidrome(char *normal, char *reverse)
         return 0;
     return 1;
 }
-
