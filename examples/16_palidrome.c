@@ -56,24 +56,6 @@ int palidrome(char *normal, char *reverse)
     if(strcmp(normal, reverse)==0)
         return 0;
     return 1;
-}length - 1 - i];
-    }
     target[i] = '\0';
 }
 
-void copy(char *source,char *target)
-{
-    int i;
-    for(i=0;source[i]!='\0';i++)
-    {
-        target[i] = source[i];
-    }
-    target[i]='\0';
-}
-
-int palidrome(char *normal, char *reverse)
-{
-    if(strcmp(normal, reverse)==0)
-        return 0;
-    return 1;
-}
